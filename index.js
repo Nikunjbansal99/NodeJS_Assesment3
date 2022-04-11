@@ -1,6 +1,5 @@
-var MongoClient = require('mongodb').MongoClient;
-var assert = require('assert');
 var prompt = require('prompt-sync')();
+var MongoClient = require('mongodb').MongoClient;
 var ObjectId = require('mongodb').ObjectID;
 var url = 'mongodb://cosmosmongodb99:XUcumV5VT8XbPnmle165JhyPFlFyQpnsFpkNjk4R1OOOP2nMVtUilWzqoWvqI8via8qceWFXw9crOTwVlg1XYw==@cosmosmongodb99.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@cosmosmongodb99@';
 console.log("Select: \n(A) For Add new Disease Symptoms and Precautions \n(S) For Search Disease Symptoms and Precautions")
